@@ -1,5 +1,7 @@
 PODS:
   - A (0.0.6):
+    - A/Core (= 0.0.6)
+  - A/Core (0.0.6):
     - CommonDependency (= 0.0.3)
   - B (0.0.1):
     - CommonDependency (~> 0.0.1)
@@ -16,7 +18,7 @@ SPEC REPOS:
     - CommonDependency
 
 SPEC CHECKSUMS:
-  A: 6be37614513e44a6a0e5e7daf3a8188dfe7a07c2
+  A: 4f43574e091c2d8183665cd8f75f3bf871cbf3bc
   B: 0aa7fa9e19bf2887810aa5cbaeee9ce673c3427c
   CommonDependency: 217bb0f538c316093fc1652eb1657c225426d4d0
 
