@@ -40,12 +40,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02F0199C57392D7C011243A89079482C /* FirstDependency */ = {
+		06022847EF5EC1454B0737C4B7313D68 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				758E28884A9D5AF22229E2A210089B1D /* A */,
+				C74C9F71F3F0AF9CCA6F148EBE78E500 /* ADependency */,
+				B19FF481F67B5AB41193A8E9F95FE1FF /* B */,
+				0EE754BD318222C0817486DB2AFDE346 /* CommonDependency */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0EE754BD318222C0817486DB2AFDE346 /* CommonDependency */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = FirstDependency;
-			path = FirstDependency;
+			name = CommonDependency;
+			path = CommonDependency;
 			sourceTree = "<group>";
 		};
 		2B5D9971B33E2943A582B170CEBEB013 /* Products */ = {
@@ -54,14 +65,6 @@
 				17E0B19F6DD7CCBCCDF84E2D9C995086 /* Pods_SampleProject.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		301DC55D5B4DD45FE13DF481F89AAD8D /* AnyName */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = AnyName;
-			path = AnyName;
 			sourceTree = "<group>";
 		};
 		4A5D26E5F0BE29457E1649575FB75127 /* Targets Support Files */ = {
@@ -98,33 +101,31 @@
 			path = "Target Support Files/Pods-SampleProject";
 			sourceTree = "<group>";
 		};
+		758E28884A9D5AF22229E2A210089B1D /* A */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = A;
+			path = A;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				A6683DD7FB60BF05B39EF1B173B4F14C /* Pods */,
+				06022847EF5EC1454B0737C4B7313D68 /* Pods */,
 				2B5D9971B33E2943A582B170CEBEB013 /* Products */,
 				4A5D26E5F0BE29457E1649575FB75127 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		84A080FFEBB435F401F57175E8431367 /* SecondDependency */ = {
+		B19FF481F67B5AB41193A8E9F95FE1FF /* B */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = SecondDependency;
-			path = SecondDependency;
-			sourceTree = "<group>";
-		};
-		A6683DD7FB60BF05B39EF1B173B4F14C /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				301DC55D5B4DD45FE13DF481F89AAD8D /* AnyName */,
-				02F0199C57392D7C011243A89079482C /* FirstDependency */,
-				84A080FFEBB435F401F57175E8431367 /* SecondDependency */,
-			);
-			name = Pods;
+			name = B;
+			path = B;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -133,6 +134,14 @@
 				5E0D919E635D23B70123790B8308F8EF /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C74C9F71F3F0AF9CCA6F148EBE78E500 /* ADependency */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ADependency;
+			path = ADependency;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

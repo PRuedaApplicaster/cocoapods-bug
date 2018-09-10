@@ -10,6 +10,6 @@ Pod::Spec.new do |s|
                         :tag => s.version.to_s }
 
   s.platform        = :ios, '9.0'
-  s.dependency 'ADependency', '~> 0.0.2'
+  s.dependency 'CommonDependency', '= 0.0.2'
 
 end
