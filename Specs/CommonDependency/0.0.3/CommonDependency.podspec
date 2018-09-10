@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
-  s.name            = 'FirstDependency'
-  s.version         = '0.0.1'
+  s.name            = 'CommonDependency'
+  s.version         = '0.0.3'
   s.summary         = "Summary"
   s.description     = "Description"
   s.homepage        = "https://github.com/PRuedaApplicaster/cocoapods-bug.git"
@@ -10,6 +10,5 @@ Pod::Spec.new do |s|
                         :tag => s.version.to_s }
 
   s.platform        = :ios, '9.0'
-  s.dependency 'SecondDependency', '~> 0.0.1'
 
 end

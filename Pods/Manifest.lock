@@ -1,0 +1,25 @@
+PODS:
+  - AnyName (0.0.1):
+    - FirstDependency (~> 0.0.1)
+  - FirstDependency (0.0.1):
+    - SecondDependency (~> 0.0.1)
+  - SecondDependency (0.0.1)
+
+DEPENDENCIES:
+  - AnyName (~> 0.0.1)
+  - SecondDependency (~> 0.0.1)
+
+SPEC REPOS:
+  "git@github.com:PRuedaApplicaster/cocoapods-bug.git":
+    - AnyName
+    - FirstDependency
+    - SecondDependency
+
+SPEC CHECKSUMS:
+  AnyName: 93a4b0aaa1d7839816afc573d1e33e92a642e308
+  FirstDependency: b0d20e2beb56edf76602fcc54e2e75127c8aa797
+  SecondDependency: e088e7fe54b23ef13e4b30a8240ba4589fe6ca91
+
+PODFILE CHECKSUM: d2cf5d7f23304f3d334b164aada52b776dddeba9
+
+COCOAPODS: 1.5.3
