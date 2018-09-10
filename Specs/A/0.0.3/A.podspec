@@ -9,7 +9,11 @@ Pod::Spec.new do |s|
   s.source          = { :git => "git@github.com:PRuedaApplicaster/cocoapods-bug.git",
                         :tag => s.version.to_s }
 
-  s.platform        = :ios, '9.0'
-  s.dependency 'CommonDependency', '= 0.0.2'
+  s.platform        = :ios, '9.0'  
+  s.default_subspecs = 'Core'
+
+  s.subspec 'Core' do |subspec|
+    subspec.dependency 'CommonDependency', '= 0.0.2'
+  end
 
 end
